@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "compras",
-    "slug": "compras",
+    "name": "Tarefas",
+    "slug": "Tarefas",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,8 +19,13 @@
     "ios": {
       "supportsTablet": true
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "androidStatusBar":{
+      "barStyle":"light-content",
+      "backgroundColor": "#000"
+    },
+    "android":{
+      "package": "com.ernilson.tarefas"
+   }
+   
   }
 }
